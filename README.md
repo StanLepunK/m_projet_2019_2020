@@ -1,5 +1,5 @@
 # Suget code créatif ECV 2019
-v 0.0.2
+v 0.0.3
 
 ## sujet
 Il sera réalisé des motifs géométriques qui se répètent.

@@ -1,7 +1,7 @@
 int col = 10;
-int row = 10;
+int row = 2;
 void setup() {
-  //size(200,200);
+  // size(640,480);
   fullScreen(1);
 }
 
@@ -18,11 +18,16 @@ void draw() {
 
 void super_rendu(float red, float green, float blue, float thickness) {
   stroke(red,green,blue);
-  strokeWeight(thickness);
+  if(thickness < 0) {
+    strokeWeight(0.1);
+  } else {
+    strokeWeight(thickness);
+  }
+  
   float rx = abs(sin(frameCount * 0.01)) * width;
   float ry = abs(sin(frameCount * 0.02)) * height;
   for(int x = 1 ; x < col ; x++) {
-    for(int y = 1 ; y < col ; y++) {
+    for(int y = 1 ; y < row ; y++) {
       line(x * rx, 0, x * rx, height);
       line(0, y * ry, width, y * ry); 
     }
