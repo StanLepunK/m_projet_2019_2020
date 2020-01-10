@@ -1,11 +1,11 @@
 # Suget code créatif ECV 2019
-v 0.0.1
+v 0.0.2
 
 ## sujet
 Il sera réalisé des motifs géométriques qui se répètent.
 Le processus de répétition est à votre choix, il pourra être linéaire ou non, itératif, communatatif, récursif, harmonique, trigonométrique, hasardeux, bi ou tridimensionnel, il pourra faire du bruit ou utiliser la poudre de perlin pinpin... C'est à vous de rendre le tout magique.
 
-L'oeuvre, le programme devra être paramétrables dans sa forme et dans sa gamme de couleur.
+L'oeuvre, le programme devra être paramétrable dans sa forme et dans sa gamme de couleur.
 
 Le rendu pour être réinitialisé afin de donner naissance à un autre rendu selon les nouveaux réglages.
 
@@ -31,7 +31,7 @@ L'application possédera une interface de controle pour en modifier les élémen
 
 Le résultat pourra être exporté un fichier image avec un numéro spécifique pour chaque impression.
 
-Quand l'utilsateur appuira sur la touche "i" le nom et prénom de l'élève ainsi que le nom du projet et la date. L'écran passera au noir et le texte sera centré dans les deux sens. Le typographie sera arial regulat corps 20 et de couleur blanche.
+Quand l'utilsateur appuira sur la touche "i" le nom et prénom de l'élève ainsi que le nom du projet et la date s'afficheront. L'écran passera au noir et le texte sera centré dans les deux sens. Le typographie sera arial regulat corps 20 et de couleur blanche.
 le texte sera formaté de la façon suivante.
 prénom nom
 titre
